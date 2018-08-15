@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="renderer" content="webkit">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <title>Threat Assessment - OWASP SAMM</title>
+  
+  <meta name="description" content="Overview The Threat Assessment (TA) practise is focused on identifying and understanding the risks that your software may pose towards the organisation. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.
+Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.">
+  <meta name="author" content="">
+  
+  <link href="/css/semantic.min.css" rel="stylesheet">
+  <link href="/css/style.css" rel="stylesheet">
+  
+  <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+  <link rel="icon" href="/img/favicon.png">
+  
+  <meta name="generator" content="Hugo">
+  
+  <link rel="alternate" type="application/atom+xml" href="/index.xml" title="OWASP SAMM">
+</head>
+<body class="single">
+  <header class="ui container">
+    <h1 class="ui header">
+      <div class="content">
+        OWASP SAMM
+        <div class="sub header">Software Assurance Maturity Model</div>
+      </div>
+    </h1>
+  </header>
+  <main class="ui container">
+
+
+<h1 class="ui huge dividing header">
+  Threat Assessment
+</h1>
+
+<div class="ui buttons">
+  <a href="/" class="ui green button"><i class="hand point left icon"></i> Back</button>
+  <a href="https://github.com/OWASP/samm/edit/master/v2.0/beta/core/design/d-threat-assessment.md" class="ui blue button"><i class="pencil icon"></i> Edit this page</a>
+</div>
+
+<div class="ui hidden divider"></div>
+
+<div class="ui labels">
+  <div class="ui green label">
+    Business function
+    <div class="detail">Design</div>
+  </div>
+  <div class="ui orange label">
+    Assigned to
+    <div class="detail">bart.dewin@owasp.org</div>
+  </div>
+</div>
+
+
+
+<h1 id="overview">Overview</h1>
+
+<p>The Threat Assessment (TA) practise is focused on identifying and understanding the risks that your software may pose towards the organisation. Indeed, software assurance is all about identifying risks in applications and treating them accordingly.</p>
+
+<p>Risks to an application can be relative to the business of the application (think about business logic attacks) or to the technical setup of the application. The Risk Profile stream deals with the former, while the Threat Modeling focuses on the latter.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left"></th>
+<th align="left">A: Risk Profile</th>
+<th align="left">B: Threat Modeling</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td align="left">Maturity 1 - Identify and understand high-level threats to the organization and individual projects.</td>
+<td align="left">Basic Application Risk Questionnaire/Classification (BIA)</td>
+<td align="left">Best effort ad-hoc threat modeling</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 2 -</td>
+<td align="left">Create an inventory of risk profiles.</td>
+<td align="left">Standardized threat modeling</td>
+</tr>
+
+<tr>
+<td align="left">Maturity 3 -</td>
+<td align="left">Periodic review of risk profiles.</td>
+<td align="left">Improve organisation with output of threat modelling</td>
+</tr>
+</tbody>
+</table>
+
+<h1 id="a-risk-profile">A: Risk Profile</h1>
+
+<h2 id="maturity-1">Maturity 1</h2>
+
+<h3 id="activity">Activity</h3>
+
+<p>As an organisation, you want to spend your security effort where it matters. The best way to guide this is based on application risk. Indeed, a risk classification helps in identifying which applications can pose a serious threat to the organisation in case they would be misused or breached.</p>
+
+<p>In this level, you will use a standard, yet simple way to evaluate the application risk based on the potential business impact that it poses towards the organisation in case of attack. This typically focuses on evaluating the impact of a breach on the confidentiality, integrity and availability of the data or service. Consider using a set of 5-10 questions to identify the impact, such as whether the application processes financial data, or whether privacy-related data is involved.</p>
+
+<p>Build a set of questions and distribute these to the persons performing these risk evaluations.</p>
+
+<h4 id="maturity-questions">Maturity Questions</h4>
+
+<h5 id="q-1">Q 1</h5>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="notes">Notes</h3>
+
+<h2 id="maturity-2">Maturity 2</h2>
+
+<h3 id="activity-1">Activity</h3>
+
+<p>The goal of this activity is to build a centralized inventory of risk profiles for the applications in your portfolio.</p>
+
+<p>To this end, first define a set of risk levels based on the previous question list. The use of a simple, qualitative scheme (e.g. high/medium/low) often proves to be effective. Next, make sure to evaluate the risk profile for (most of) the applications in your application portfolio.</p>
+
+<p>Based on this input, build a centralized inventory of risk profiles that uses the outcome of the risk evaluations to define the profile. This inventory will give all stakeholders an aligned view on the risk level of an application.</p>
+
+<h3 id="maturity-questions-1">Maturity Questions</h3>
+
+<h4 id="q-1-1">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="notes-1">Notes</h3>
+
+<h2 id="maturity-3">Maturity 3</h2>
+
+<h3 id="activity-2">Activity</h3>
+
+<p>The application portfolio of an organisation changes, as well as the conditions and constraints in which an application lives. You want to periodically review the risk inventory that you&rsquo;ve build in order to ensure correctness of the risk evaluations of the different applications. to this end, perform periodic reviews of the risk profiles by rerunning the risk evaluation. Question yourself which conditions have changed that might impact the risk profile.</p>
+
+<h3 id="maturity-questions-2">Maturity Questions</h3>
+
+<h4 id="q-1-2">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="notes-2">Notes</h3>
+
+<h1 id="b-threat-modeling">B: Threat Modeling</h1>
+
+<h2 id="maturity-1-1">Maturity 1</h2>
+
+<h3 id="activity-3">Activity</h3>
+
+<p>The purpose of Threat Modeling is to identify potential issues in the technical setup of the application. Uncarefull design might lead to issues that can be exploited to target your organisation.</p>
+
+<p>The elicitation of threats in Threat Modeling can be inspired by good security practices (or the lack thereof) or can be driven by a more structured approach such as STRIDE. It can be performed by a single person or by a group of people (in a more brainstorming mode). Fact is that experience is definitely helpful in eliciting useful threats.</p>
+
+<p>At this level, you want to execute threat modeling on important projects in a best effort mode to identify the most important threats to the application.</p>
+
+<h3 id="maturity-questions-3">Maturity Questions</h3>
+
+<h4 id="q-1-3">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="notes-3">Notes</h3>
+
+<p>Terminology: do we want to use application, software or solution as the main term ?</p>
+
+<h2 id="maturity-2-1">Maturity 2</h2>
+
+<h3 id="activity-4">Activity</h3>
+
+<p>In order to increase the quality and efficiency of threat modeling within your organisation, establish a standard approach to perform structured threat modeling. This will ensure that the invested effort is useful and well spent.</p>
+
+<p>Structured threat modeling takes into account the different actors, assets and flows in order to identify an extensive list of potential threats to the application. It will define the inputs required to start the activity, the different steps to be performed to identify threats, and the formalisms used to describe or annotate the threats. Threat models can be augmented with mitigating controls to guide designers in dealing with particular threats.</p>
+
+<p>Consider using a tool to manage the treat models of the different applications. Ideally, the tools also helps in identifying potential threats (to some extent). But do note that threat modeling requires human intelligence that cannot be easily automated.</p>
+
+<h3 id="maturity-questions-4">Maturity Questions</h3>
+
+<h4 id="q-1-4">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="notes-4">Notes</h3>
+
+<p>Personally I&rsquo;m not convinced about specifying mitigating controls in threat models, since it is very difficult to maintain this.</p>
+
+<p>What about discovering threat patterns over different applications ? Maybe for this level, or maybe for level 3 ?</p>
+
+<h2 id="maturity-3-1">Maturity 3</h2>
+
+<h3 id="activity-5">Activity</h3>
+
+<p>In a mature setup of threat modeling, an organisation would regularly (e.g., yearly) review the existing threat models to verify that no new threats would become relevant for your applications at hand.</p>
+
+<p>At this level, an organisation would also review the threat categories that are relevant to your organisation. When new threat categories are identified, the organisation is fed with this information to ensure appropriate handling.</p>
+
+<h3 id="maturity-questions-5">Maturity Questions</h3>
+
+<h4 id="q-1-5">Q 1</h4>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat?</p>
+
+<p><strong>Answer Options</strong>
+- Option 1
+- Option 2
+- Option 3
+- Option 4</p>
+
+<h3 id="notes-5">Notes</h3>
+
+<p>I cannot think of good examples of threat categories. Anybody ?</p>
+
+
+<div class="ui section divider"></div>
+<footer class="ui container footer">
+  <div class="ui stackable grid">
+    <div class="ui three wide column">
+      <a href="https://www.owasp.org/"><img class="ui fluid image" src="/img/owasp.png" /></a>
+    </div>
+    <div class="ui thirteen wide column">
+      <h3 class="ui blue sub header">This is an OWASP Project</h3>
+      <p>OWASP is an international organization and the OWASP Foundation supports OWASP efforts around the world. OWASP is an open community dedicated to enabling organizations to conceive, develop, acquire, operate, and maintain applications that can be trusted. All of the OWASP tools, documents, forums, and chapters are free and open to anyone interested in improving application security. We advocate approaching application security as a people, process, and technology problem because the most effective approaches to application security include improvements in all of these areas. We can be found at <a href="https://www.owasp.org/">https://www.owasp.org/</a>.</p>
+    </div>
+  </div>
+  <div class="ui stackable grid">
+    <div class="ui three wide column">
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img class="ui fluid image" src="/img/by-sa.png" /></a>
+    </div>
+    <div class="ui thirteen wide column">
+      <h3 class="ui blue sub header">CC BY-SA 4.0</h3>
+      <p>This work is licensed under the Creative Commons Attribution-Share Alike 4.0 License. To view a copy of this license, visit <a href="https://creativecommons.org/licenses/by-sa/4.0/">https://creativecommons.org/licenses/by-sa/4.0/</a>.</p>
+    </div>
+  </div>
+</footer>
+<script src="/js/semantic.min.js" data-no-instant></script>
+</body>
+</html>
+
